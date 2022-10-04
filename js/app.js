@@ -63,7 +63,7 @@ $(document).ready(function () {
 
     // Initialize isotope
     $wrapper.isotope({
-        filter: '*',
+        filter: '.Certifications, .Internships',
         layoutMode: 'masonry',
         animationOptions: {
             duration: 750,
